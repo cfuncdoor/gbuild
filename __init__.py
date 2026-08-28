@@ -99,5 +99,5 @@ class Builder():
         if builddir != ".":
             if not _search_dir(builddir):
                 os.mkdir(builddir)
-        print(cmd)
-        # _try_run(cmd)
+        # print(cmd)
+        _try_run(cmd)
